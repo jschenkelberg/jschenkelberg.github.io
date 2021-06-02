@@ -1,9 +1,9 @@
 body {
-    background-color:white    
+    background-color:ghostwhite    
 }
 
 .topnav {
-  background-color: #333;
+  background-color:black;
   overflow: hidden;
 }
 
@@ -11,7 +11,7 @@ body {
   position: relative;
   float: left;
   display: block;
-  color: #f2f2f2;
+  color:ghostwhite;
   text-align: center;
   padding: 25px 110px;
   text-decoration: none;
@@ -39,7 +39,7 @@ h1 {position: absolute;
   width: 997px;
   height: 134px;
   left: 445px;
-  top: 150px;
+  top: 100px;
   font-family: Franklin Gothic Medium;
   font-style: normal;
   font-weight: normal;
@@ -51,7 +51,7 @@ h2 {
   height: 51px;
   width: 657px;
   left: 611px;
-  top: 800px;
+  top: 765px;
   border-radius: nullpx;
   position: absolute;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -62,9 +62,9 @@ h2 {
 
 p {
   height: 97px;
-  width: 1200px;
+  width: 1000px;
   left: 403px;
-  top: 900px;
+  top: 855px;
   border-radius: nullpx;
   font-family: Poppins;
   font-size: 25px;
@@ -82,7 +82,7 @@ h3{
   width: 210px;
   height: 54px;
   left: 850px;
-  top: 1000px;
+  top: 1010px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -118,7 +118,7 @@ position: absolute;
 width: 328px;
 height: 391.64px;
 left: 776px;
-top: 400px;
+top: 365px;
     }    
 .image1 {
   width: 300px;
