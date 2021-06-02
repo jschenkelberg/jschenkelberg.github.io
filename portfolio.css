@@ -132,3 +132,30 @@ top: 400px;
   left: 1000px;
   top: 1150px
 }
+h6{ 
+  height: 25px;
+  width: 300px;
+  left: 625px;
+  top: 1420px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position:absolute;
+}
+h7 {
+  height: 25px;
+  width: 300px;
+  left: 1025px;
+  top: 1480px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position:absolute;
+}
+
