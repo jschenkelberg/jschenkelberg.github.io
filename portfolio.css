@@ -4,8 +4,7 @@ body {
 
 .topnav {
   background-color:black;
-  overflow: hidden;
-}
+  }
 
 .topnav a {
   position: relative;
@@ -13,28 +12,41 @@ body {
   display: block;
   color:ghostwhite;
   text-align: center;
-  padding: 25px 110px;
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 2rem;
+  box-sizing: border-box;
  }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: ghostwhite;
   color: black;
 }
 
 .topnav a.active {
-  background-color:red;
-  color: white;
+  background-color:black;
+  color: ghostwhite;
 }
 
 .topnav .icon {
   display: none;
 }
-
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float:left;
+  margin: 1vw;
+}
+li a {
+  display: block;
+  text-align: center;
+}
 h1 {position: absolute;
   width: 997px;
   height: 134px;
@@ -45,8 +57,10 @@ h1 {position: absolute;
   font-weight: normal;
   font-size: 131.178px;
   line-height: 101.91%;
-  }
+  box-sizing: border-box;
 
+  }
+ 
 h2 {
   height: 51px;
   width: 657px;
@@ -58,6 +72,7 @@ h2 {
   font-weight: 600;
   font-size: 50px;
   line-height: 101.91%;
+  box-sizing: border-box;
 }
 
 p {
@@ -66,7 +81,6 @@ p {
   left: 403px;
   top: 855px;
   border-radius: nullpx;
-  font-family: Poppins;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -75,6 +89,7 @@ p {
   text-align: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position:absolute;
+  box-sizing: border-box;
   }
 
 h3{
@@ -88,7 +103,9 @@ h3{
   font-weight: 600;
   font-size: 50px;
   line-height: 101.91%;
-}
+  box-sizing: border-box;
+  }
+
 h4{
   height: 51px;
   width: 778px;
@@ -100,7 +117,9 @@ h4{
   font-weight: 600;
   font-size: 50px;
   line-height: 101.91%;
-}
+  box-sizing: border-box;
+  }
+
 h5{
   height: 51px;
   width: 778px;
@@ -112,26 +131,34 @@ h5{
   font-weight: 300;
   font-size: 25px;
   line-height: 101.91%;
+  box-sizing: border-box;
 }
+
 img {
 position: absolute;
 width: 328px;
 height: 391.64px;
 left: 776px;
 top: 365px;
-    }    
+box-sizing: border-box;
+max-width:100%;
+height:auto;
+    }
+
 .image1 {
   width: 300px;
   height: 300px;
   left: 600px;
   top: 1150px
-}
+  }
+
 .image2 {
   width: 300px;
   height: 300px;
   left: 1000px;
   top: 1150px
 }
+
 h6{ 
   height: 25px;
   width: 300px;
@@ -144,7 +171,9 @@ h6{
   letter-spacing: 0em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position:absolute;
+  box-sizing: border-box;
 }
+
 h7 {
   height: 25px;
   width: 300px;
@@ -157,5 +186,6 @@ h7 {
   letter-spacing: 0em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position:absolute;
+  box-sizing: border-box;
 }
 
