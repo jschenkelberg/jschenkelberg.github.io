@@ -51,21 +51,20 @@ h1 {position: absolute;
   width: 997px;
   height: 134px;
   left: 445px;
-  top: 100px;
+  top: 25px;
   font-family: Franklin Gothic Medium;
   font-style: normal;
   font-weight: normal;
   font-size: 131.178px;
   line-height: 101.91%;
   box-sizing: border-box;
-
   }
  
 h2 {
   height: 51px;
   width: 657px;
   left: 611px;
-  top: 765px;
+  top: 740px;
   border-radius: nullpx;
   position: absolute;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -79,14 +78,14 @@ p {
   height: 97px;
   width: 1000px;
   left: 403px;
-  top: 855px;
+  top: 825px;
   border-radius: nullpx;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position:absolute;
   box-sizing: border-box;
@@ -139,7 +138,7 @@ position: absolute;
 width: 328px;
 height: 391.64px;
 left: 776px;
-top: 365px;
+top: 300px;
 box-sizing: border-box;
 max-width:100%;
 height:auto;
