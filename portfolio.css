@@ -105,6 +105,18 @@ h4{
   font-size: 50px;
   line-height: 101.91%;
 }
+h5{
+  height: 51px;
+  width: 778px;
+  left: 760px;
+  top: 1575px;
+  border-radius: 0px;
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 101.91%;
+}
 
 img {
 position: absolute;
