@@ -158,11 +158,11 @@ height:auto;
   top: 1150px
 }
 
-h6{ 
+.subtitle1{ 
   height: 25px;
   width: 300px;
-  left: 625px;
-  top: 1420px;
+  left: -185px;
+  top: -200px;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -173,11 +173,11 @@ h6{
   box-sizing: border-box;
 }
 
-h7 {
+.subtitle2 {
   height: 25px;
   width: 300px;
-  left: 1025px;
-  top: 1480px;
+  left: 225px;
+  top: -200px;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
