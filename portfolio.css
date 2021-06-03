@@ -1,5 +1,5 @@
 body {
-    background-color:ghostwhite    
+    background-color:ghostwhite   
 }
 
 .topnav {
@@ -60,11 +60,11 @@ h1 {
   height:auto;
   left: 0px;
   top: 0px;
-  font-family: Franklin Gothic Medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 4rem;
-  line-height: 101.91%;
+  line-height: 101.91%;  
   box-sizing: border-box;
   text-align: center;
   padding: auto;
@@ -90,7 +90,7 @@ p {
   width: auto;
   left: auto;
   top: auto;
-  border-radius: nullpx;
+  border-radius: 2px;
   font-size: 25px;
   font-style: 1rem;
   font-weight: 400;
@@ -155,6 +155,7 @@ top: auto;
 box-sizing: border-box;
 max-width:30%;
 height:auto;
+border-radius: 8px;
     }
 
 .image1 {
