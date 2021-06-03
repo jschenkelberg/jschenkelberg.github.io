@@ -16,7 +16,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 3rem;
   box-sizing: border-box;
  }
 
@@ -46,145 +46,139 @@ li {
 li a {
   display: block;
   text-align: center;
-}
-h1 {position: absolute;
-  width: 997px;
-  height: 134px;
-  left: 445px;
-  top: 25px;
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+h1 {
+  position: relative;
+  width: auto;
+  height:auto;
+  left: 0px;
+  top: 0px;
   font-family: Franklin Gothic Medium;
   font-style: normal;
   font-weight: normal;
-  font-size: 131.178px;
+  font-size: 4rem;
   line-height: 101.91%;
   box-sizing: border-box;
+  text-align: center;
+  padding: auto;
   }
  
 h2 {
-  height: 51px;
-  width: 657px;
-  left: 611px;
-  top: 740px;
+  height: auto;
+  width: auto;
+  left: auto;
+  top: auto;
   border-radius: nullpx;
-  position: absolute;
+  position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 2rem;
   line-height: 101.91%;
   box-sizing: border-box;
+  text-align: center;  
 }
 
 p {
-  height: 97px;
-  width: 1000px;
-  left: 403px;
-  top: 825px;
+  height: auto;
+  width: auto;
+  left: auto;
+  top: auto;
   border-radius: nullpx;
   font-size: 25px;
-  font-style: normal;
+  font-style: 1rem;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0em;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position:absolute;
+  position:relative;
   box-sizing: border-box;
   }
 
 h3{
-  position: absolute;
-  width: 210px;
-  height: 54px;
-  left: 850px;
-  top: 1010px;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 101.91%;
   box-sizing: border-box;
+  text-align: center;
   }
 
 h4{
-  height: 51px;
-  width: 778px;
-  left: 837.5px;
-  top: 1500px;
+  height: auto;
+  width: auto;
+  left: auto;
+  top: auto;
   border-radius: 0px;
-  position: absolute;
+  position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 101.91%;
   box-sizing: border-box;
+  text-align: center;
   }
 
 h5{
-  height: 51px;
-  width: 778px;
-  left: 780px;
-  top: 1600px;
+  height: auto;
+  width: auto;
+  left: auto;
+  top: auto;
   border-radius: 0px;
-  position: absolute;
+  position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 1rem;
   line-height: 101.91%;
   box-sizing: border-box;
+  text-align: center;
 }
 
 img {
-position: absolute;
-width: 328px;
-height: 391.64px;
-left: 776px;
-top: 300px;
+width: auto;
+height: auto;
+left: calc(50% - 657px/2);
+top: calc(50% - 51px/2 + 41.82px);
 box-sizing: border-box;
-max-width:100%;
+max-width:20%;
 height:auto;
     }
 
 .image1 {
   width: 300px;
   height: 300px;
-  left: 600px;
-  top: 1150px
-  }
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25vw;
+}
 
 .image2 {
   width: 300px;
   height: 300px;
-  left: 1000px;
-  top: 1150px
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  padding:25vw;
 }
 
-.subtitle1{ 
-  height: 25px;
-  width: 300px;
-  left: -185px;
-  top: -200px;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position:absolute;
-  box-sizing: border-box;
+figcaption {
+  color: black;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+  width: auto 
 }
-
-.subtitle2 {
-  height: 25px;
-  width: 300px;
-  left: 225px;
-  top: -200px;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position:absolute;
-  box-sizing: border-box;
-}
-
