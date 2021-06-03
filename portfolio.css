@@ -141,7 +141,7 @@ h5{
   position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 101.91%;
   box-sizing: border-box;
   text-align: center;
@@ -150,29 +150,18 @@ h5{
 img {
 width: auto;
 height: auto;
-left: calc(50% - 657px/2);
-top: calc(50% - 51px/2 + 41.82px);
+left: auto;
+top: auto;
 box-sizing: border-box;
-max-width:20%;
+max-width:30%;
 height:auto;
     }
 
 .image1 {
-  width: 300px;
-  height: 300px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding: 25vw;
-}
-
-.image2 {
-  width: 300px;
-  height: 300px;
-  margin-left: auto;
-  margin-right:auto;
-  width: 50%;
-  padding:25vw;
 }
 
 figcaption {
